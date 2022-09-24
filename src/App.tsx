@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -42,17 +41,18 @@ function App() {
   return (
     <div className="wrapper">
       <div className="App">
-      <h1 className="title"> B- Halloweenparty Countdown </h1>
+      <h1 className="title"> 🎃 B- Halloween party countdown 🎃 </h1>
+      <h2 className="title"> 👻 28th of October 👻 </h2>
 
       {partyTime ? (
         <>
-          <h2 className="text">🎉 B- is now open! 🎉</h2>
+          <h2 className="text">🍻 B- is open! 🍻</h2>
         </>
       ) : (
         <>
           <div className="timer-wrapper">
             <h2 className="counter">
-              {days} days, {hours} hours, {minutes} minutes, {seconds} seconds
+              {days} days : {hours} hours : {minutes} minutes : {seconds} seconds
             </h2>
           </div>
         </>
