@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="wrapper">
       <div className="App">
-      <h1 className="title"> 🎃 B- & Sandra's Halloween party countdown 🎃 </h1>
+      <h1 className="title"> 🎃 B- Halloween party countdown 🎃 </h1>
       <h2 className="title"> 👻 28th of October 👻 </h2>
 
       {partyTime ? (
