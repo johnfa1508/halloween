@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-// test
+
 function App() {
   const [partyTime, setPartyTime] = useState(false);
   const [days, setDays] = useState(0);
