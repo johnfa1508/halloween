@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
 
 function App() {
   const [partyTime, setPartyTime] = useState(false);
@@ -36,28 +36,28 @@ function App() {
 
     return () => clearInterval(interval);
   }, []);
-  
-  
+
   return (
     <div className="wrapper">
       <div className="App">
-      <h1 className="title"> 🎃 B- Halloween party countdown 🎃 </h1>
-      <h2 className="title"> 👻 28th of October 👻 </h2>
+        <h1 className="title"> 🎃 B- Halloween party countdown 🎃 </h1>
+        <h2 className="title"> 👻 28th of October 👻 </h2>
 
-      {partyTime ? (
-        <>
-          <h2 className="text">🍻 B- is open! 🍻</h2>
-        </>
-      ) : (
-        <>
-          <div className="timer-wrapper">
-            <h2 className="counter">
-              {days} days : {hours} hours : {minutes} minutes : {seconds} seconds
-            </h2>
-          </div>
-        </>
-      )}
-    </div>
+        {partyTime ? (
+          <>
+            <h2 className="text">🍻 B- is open! 🍻</h2>
+          </>
+        ) : (
+          <>
+            <div className="timer-wrapper">
+              <h2 className="counter">
+                {days} days : {hours} hours : {minutes} minutes : {seconds}{" "}
+                seconds
+              </h2>
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }
