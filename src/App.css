@@ -3,11 +3,7 @@
 }
 
 body {
-  background-image: url("https://img.freepik.com/free-vector/realistic-halloween-cobweb-background_23-2149090360.jpg?w=1380&t=st=1666911311~exp=1666911911~hmac=cbd62ba05ec872b77ee01bb27014fba2cc1a29f16b50ef81b7678dbdf21f3afe");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #282c34;
+  background-color: #0A0A0A;
 }
 
 .wrapper {
